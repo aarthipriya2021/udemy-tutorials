@@ -1,15 +1,16 @@
-import React from 'react'
+import React from 'react';
 
-export const ExpenseItem =() =>{
+
+export const ExpenseItem = () => {
     return (
-        <div>
-            <div>Date</div>
-            <div>
-                <h2>Title</h2>
-            <div>Amount</div>
+        <div className='expense-item'>
+            <div >Mar 27th 2021</div>
+            <div className='expense-item__description'>
+            <h2>Laptop</h2>
+                <div className='expense-item__price'>$530</div>
             </div>
         </div>
-        )
+    )
 }
 
 export default ExpenseItem
