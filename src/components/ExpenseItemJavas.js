@@ -7,7 +7,7 @@ export const ExpenseItem = () => {
     const expensePrice = 530;
     return (
         <div className='expense-item'>
-            <div >{expenseDate.toLocaleDateString()}</div>
+            <div >{expenseDate.toLocaleString()}</div>
             <div className='expense-item__description'>
             <h2>{expenseTitle}</h2>
                 <div className='expense-item__price'>{expensePrice}</div>

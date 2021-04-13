@@ -2,6 +2,7 @@ import React from 'react';
 
 
 export const ExpenseItem = () => {
+    
     return (
         <div className='expense-item'>
             <div >Mar 27th 2021</div>
