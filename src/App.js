@@ -2,8 +2,8 @@
 import './App.css';
 
 
-// import { ExpenseItem } from './components/ExpenseItem';
-import { ExpenseItem } from './components/ExpenseItemStyling';
+import { ExpenseItem } from './components/ExpenseItem';
+
 
 
 export const App = () =>{
