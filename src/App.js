@@ -3,7 +3,7 @@ import './App.css';
 
 
 // import { ExpenseItem } from './components/ExpenseItem';
-import { ExpenseItem } from './components/ExpenseItem(1)';
+import { ExpenseItem } from './components/ExpenseItemStyling';
 
 
 export const App = () =>{
