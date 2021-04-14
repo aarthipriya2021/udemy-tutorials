@@ -1,12 +1,14 @@
 //import logo from './logo.svg';
 import './App.css';
+import ExpenseDate from './components/ExpenseDate';
 
 
 // import { ExpenseItem } from './components/ExpenseItem';
 // import { ExpenseItem } from './components/ExpenseItemStyle';
 // import { ExpenseItem } from './components/ExpenseItemJavas'
 // import { ExpenseItem} from './components/ExpenseItemJava';
-import { ExpenseItem} from './components/ExpenseUpdate'
+// import { ExpenseItem} from './components/ExpenseUpdate';
+import { Expenses } from './components/Expenses';
 
 
 
@@ -37,7 +39,8 @@ export const App = () =>{
   return (
     <div className="App">
       <h2>Let's get started. </h2>
-      <ExpenseItem 
+        <Expenses items={expenses}/>
+      {/* <ExpenseItem 
         title={expenses[0].title} 
         amount={expenses[0].amount} 
         date={expenses[0].date}/>
@@ -52,7 +55,7 @@ export const App = () =>{
       <ExpenseItem 
         title={expenses[3].title} 
         amount={expenses[3].amount} 
-        date={expenses[3].date}/>
+        date={expenses[3].date}/> */}
     </div>  
       
 
