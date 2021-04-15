@@ -3,15 +3,20 @@ import React from 'react';
 import './App.css';
 // import { ExpenseDate} from '../src/components/Expenses/ExpenseDate';
 
-
+///**** components:
 // import { ExpenseItem } from './components/ExpenseItem';
 // import { ExpenseItem } from './components/ExpenseItemStyle';
 // import { ExpenseItem } from './components/ExpenseItemJavas'
 // import { ExpenseItem} from './components/ExpenseItemJava';
 // import { ExpenseItem} from './components/ExpenseUpdate';
-import { Expenses } from './components/Expenses';
+// import { Expenses } from './components/Expenses';
 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+///**** state
+
+import { Expenses } from './state/Expenses';
+// import { ExpenseItem } from './state/Expensestate';
 
 export const App = () =>{
   const expenses = [
@@ -41,7 +46,8 @@ export const App = () =>{
     <div className="App">
       <h2>Let's get started. </h2>
         <Expenses items={expenses}/>
-        {/* <ExpenseDate /> */}
+          {/* <ExpenseDate /> */}
+           
     </div>  
       
 
