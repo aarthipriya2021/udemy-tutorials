@@ -1,3 +1,4 @@
+import React from 'react';
 //import logo from './logo.svg';
 import './App.css';
 // import { ExpenseDate} from '../src/components/Expenses/ExpenseDate';
@@ -8,7 +9,7 @@ import './App.css';
 // import { ExpenseItem } from './components/ExpenseItemJavas'
 // import { ExpenseItem} from './components/ExpenseItemJava';
 // import { ExpenseItem} from './components/ExpenseUpdate';
-import { Expenses } from '../src/components/Expenses/Expenses';
+import { Expenses } from './components/Expenses';
 
 
 
