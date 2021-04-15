@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { ExpenseItem} from './'
+import { ExpenseItem } from '../state/ExpenseUpdate';
 import { Card} from './Card';
 import './Expenses.css';
 

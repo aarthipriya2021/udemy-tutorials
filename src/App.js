@@ -17,6 +17,7 @@ import './App.css';
 
 import { Expenses } from './state/Expenses';
 // import { ExpenseItem } from './state/Expensestate';
+import { NewExpense } from './state/NewExpense/NewExpense';
 
 export const App = () =>{
   const expenses = [
@@ -44,7 +45,7 @@ export const App = () =>{
 
   return (
     <div className="App">
-      <h2>Let's get started. </h2>
+      <NewExpense />
         <Expenses items={expenses}/>
           {/* <ExpenseDate /> */}
            
